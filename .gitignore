@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+build/
+dist/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.whl
+*.exe
+*.msi
+
+# AI Service models (large)
+backEnd/AI-services/*.keras
+backEnd/AI-services/dataset/
+
+# Laravel
+backEnd/finalProject/storage/logs/
+backEnd/finalProject/bootstrap/cache/
+backEnd/finalProject/.env
+
+# React
+frontEnd/visionmart/build/
+frontEnd/visionmart/.env.local
+
+# Misc
+.git-credentials
+*.lock
